@@ -1,0 +1,135 @@
+.class2,.class3,.class4,.class5 {
+          border: solid 1px red;
+        }
+        .class6,.class7,.class17,.class8,.class9,.class10,.class11,.class12,.class13,.class14,.class15,.class16{
+          border: solid 1px blue;
+        }
+        .class18,.class19,.class20,.class21,.class22,.class23{
+          border: solid 1px yellow;
+        }
+        .class1 {border: solid 2px green;
+          height: auto;width: 60%;
+          margin: auto;
+        }
+        .class2{
+          margin: 23px 67px;
+          height:12%;
+          width:80%;
+        }
+        .class3{
+          margin: 23px 67px;
+          height:6%;width:80%;
+        }
+        .class4{
+          margin: 23px 67px;
+          height:50%;
+          width:80%;
+        }
+        .class5{
+          margin: 23px 67px;
+          height:12%;
+          width:80%;
+        }
+        .class6{
+          margin: 14px 13px 14px 15px;
+          height:65%;
+          width: 30%;
+          float:left;"
+        }
+        .class7{
+          margin: 14 13 14 0;
+          height:65%;
+          width: 30%;
+          float:left;"
+        }
+        .class17{
+          margin: 14px 5px 14px 0px;
+          height:65%;
+          width: 30%;
+          float:left;
+        }
+        .class8{
+          margin: 6px 3 6 4px;
+          height:65%;
+          width: 24%;
+          float:left;
+        }
+        .class9{
+          margin: 6 3 6 0;
+          height:65%;
+          width: 24%;
+          float:left;
+        }
+        .class10{
+          margin: 6 3 6 0;
+          height:65%;
+          width: 24%;
+          float:left;
+        }
+        .class11{
+          margin: 6 0px;
+          height:65%;
+          width: 24%;
+          float:left;
+        }
+        .class12{
+          margin: 10px 21 10;
+          height: 90%;
+          width: 20%;
+          float:left;
+        }
+        .class13{
+          margin: 10px 21px 8 0;
+          height: 90%;
+          width: 68%;
+          float:left;
+        }
+        .class14{
+          margin: 14px 13px 14 15;
+          height:65%;
+          width: 30%;
+          float:left;
+        }
+        .class15{
+          margin: 14px 13px 14 0;
+          height:65%;
+          width: 30%;
+          float:left;
+        }
+        .class16{
+          margin: 14px 13px 14 0;
+          height:65%;
+          width: 30%;
+          float:left;
+        }
+
+        .class18{
+          height: 35%;
+          width: 92%;
+          margin: 6 2 2 8;
+        }
+        .class19{
+          height: 35%;
+          width: 92%;
+          margin: 0 2 2 8;
+        }
+        .class20{
+          height: 35%;
+          width: 92%;
+          margin: 6 2 2 8;
+        }
+        .class21{
+          height: 35%;
+          width: 92%;
+          margin: 0 2 2 8;
+        }
+        .class22{
+          height: 35%;
+          width: 92%;
+          margin: 6 2 2 8;
+        }
+        .class23{
+          height: 35%;
+          width: 92%;
+          margin: 0 2 2 8;
+        }
