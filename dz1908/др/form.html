@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			background: repeating-linear-gradient(135deg, #ececec, #ececec 2px, #c7c7c7 2px, #c7c7c7 3px);
+			font-family: Helvetica, sans-serif;
+
+		}
+		.container{
+			height: 260px;
+			width: 525px;
+			margin: 25% auto 0;
+			padding: 10px;
+			background-color: rgba(0,0,0,.3);
+			border-radius: 30px;
+		}
+		.form{
+			background-color: #3a3838;
+			float: left;
+			height: 100%;
+			width: 80%;
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+		}
+		.button{
+			background-color: blue;
+			float:left;
+			height: 100%;
+			width: 20%;
+			border-top-right-radius: 30px;
+			border-bottom-right-radius: 30px;
+		}
+		h2{
+			text-transform: uppercase;
+			font-size: 28px;
+			color: #fff;
+			font-weight: 100;
+		}
+		.login{
+			padding: 0 30px 20px;
+			border-bottom: 1px solid black;
+
+		}
+		.go{
+
+		}
+		label{
+			color: #fff;
+			display: block;
+			float: left;
+			margin: 20px 0 0 20px;
+			position: relative;
+		}
+		a{
+			font-style: oblique;
+			color: #fff;
+			text-decoration: none;
+		}
+		p{
+			color: #fff;
+		}
+		.logo{
+			background-image: url("1.png");
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-size: contain;
+			position: absolute;
+			top: 20px;
+			left: 143px;
+		}
+		input:not([type=radio]){
+			height: 25px;
+			width: 170px;
+			border-radius: 5px;
+			background-color: #ececec;
+			font-size: 30px;
+		}
+		#pass{
+			font-size: 50px;
+		}
+		.button>a{
+			display: block;
+			font-style: normal;
+			text-transform: uppercase;
+			height: 100%;
+			padding-top: 200%;
+			text-align: center;
+			box-sizing: border-box;
+			font-size: 28px;
+			background: url("Arrow.png") 50% 25% no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			<h2 class="login">login</h2>
+			<form>
+				<label for="login">Username:<br>
+					<span class="logo"></span>
+					<input type="text" id="login" >
+					
+				</label>
+				<label for="pass">Password:<br>
+					<span class="logo"></span>
+					<input type="password" id="pass">
+					
+				</label>
+				<label for="radio"> 
+					<input type="radio" id="radio">
+					Some text
+				</label>
+				
+			</form>
+			<p>Forgot <a href="#">username</a> or <a href="#">password</a></p>
+		</div>
+		<div class="button">
+			<a href="#">go</a>
+		</div>
+	</div>
+</body>
+</html>
