@@ -1,0 +1,96 @@
+<html><head>
+    <title></title>
+	<meta charset="utf-8">
+    <style>
+.f1,.f3{
+width:300px;
+height:400px;
+overflow:hidden;
+}
+.f1{
+background:pink;
+float:left;
+border:2px solid green;
+border-bottom:3px dashed green;
+}
+.f2 {
+    background: orange;
+    width: 200px;
+    height: 100px;
+    float: left;
+    clear: both;
+    margin: 110px 0px 0px 600px;
+  }
+.f3{
+background:#3ad2dc;
+float:right;
+border:2px solid #2cb91c;
+border-right:3px dashed #2cb91c;
+}
+.f11,.f12,.f13,.f34,.f35,.f36 {
+width:100px;
+height:50px;
+border:1px dotted red;
+}
+.f11{
+bottom: 0;
+right: -847px;
+position: absolute;
+z-index: 50;
+}
+.f12{
+margin:5px auto;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.f13{
+margin:5px auto;
+position: absolute;
+top: 170px;
+left: -20px;
+}
+.f34,.f35,.f36{
+float:right;
+clear:both;
+}
+.f34{
+bottom: 280px;
+position: absolute;
+right: 130px;
+}
+.f35{
+margin:5px 0;
+position: absolute;
+top: 85px;
+left: 10px;
+z-index: 50;
+}
+.f36{
+position: absolute;
+}
+</style>
+</head>
+<body>
+    <div class="f1" style="
+    left: 5px;
+    position: relative;
+    z-index: 50;
+">
+        <div class="f11" style="background:#d48585;">1</div>
+        <div class="f12" style="background:#808080;">2</div>
+        <div class="f13" style="background:#ba42d1;">3</div>
+    </div>
+    <div class="f3">
+        <div class="f34" style="background:#6b1b27;">4</div>
+        <div class="f35" style="background:#6ad898;">5</div>
+        <div class="f36" style="background:#1724b1;">6</div>
+    </div>
+    <div class="f2" style="
+    position: absolute;
+    /* left: auto; */
+">7</div>
+
+
+
+</body></html>
