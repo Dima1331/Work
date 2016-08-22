@@ -1,0 +1,14 @@
+@font-face{
+	font-family: "MyRiad";
+	src: url(../fonts/MyRiadPro-Regular.otf) format("OpenType");
+}
+@font-face{
+	font-family: "MyRiad";
+	src: url(../fonts/MyRiadPro-Bold.otf) format("OpenType");
+	font-weight: bold;
+}
+@font-face{
+	font-family: "MyRiadCond";
+	src: url(../fonts/MyRiadPro-BoldCond.otf) format("OpenType");
+	font-weight: bold;
+}
