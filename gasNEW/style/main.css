@@ -11,38 +11,55 @@ body{
 }
 .fluid{
 	width: 100%;
-	padding: 20px 0 0 0;
+	
 }
 
 header{
 	background-image: url(../images/header.png);
 	background-color: rgb(39,110,68);
-	background-size: 107% 80%;
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+	padding: 75px 0 16px 0;
+	border-bottom: 1px solid #5e420b;
 }
 .menu{
 	margin: 0;
-	
+	height: 40px;
+	background: linear-gradient(to bottom, #acc11e, #7f9310);
+	padding: 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+#logo{
+	width: 180px;
+	height: 182px;
+	background-image: url(../images/logo.png);
+	position: relative;
+	top: -70px;
 }
 .menu > li{
 	width: 95px;
-	display: inline-block;
 	list-style: none;
-	margin-left: -5px;
 }
 
 .menu__item{
 	background: linear-gradient(to bottom, #acc11e, #7f9310);
 	display: block;
-	
 	padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
-}
-.menu__logo{
-	background-image: url(../images/log.png);
-	margin: 0 auto;
+	text-align: center;
 }
 
+.menu__item:hover{
+	background: linear-gradient(to bottom, #fce971, #d66c2c);
+	color: #ac3902;
+	
+}
 
 
 
@@ -77,6 +94,7 @@ header{
 .slide{
 	background-image: url(../images/slide.png);
 	border-radius: 10px;
+	box-shadow: 0px 20px 81px -32px #605C59;
 }
 .second{
 	background-image: url(../images/try.png);
@@ -88,14 +106,74 @@ header{
 	font-size: 24pt;
 	position: relative;
 	left: 60%;
+	margin-bottom: 0;
 
 }
 article{
 	background-color:rgb(118,98,58);
-	width: 100%;
-}
+	border-top: 1px solid #a79777;
+	border-bottom: 1px solid #5d4d2f;
+	height: 340px;
+
 
 }
-.article1 {
-	height: 500px;
+
+.block{
+	width: 300px;
+	// height: 270px;
+	margin-right: 10px;
+}
+
+.block:last-child{
+	margin-right: 0px;
+}
+
+.block > h3{
+	font-family: MyRiad, sans-serif;
+	font-size: 18px;
+	color: #664f25;
+	background: url(../images/arrow.png);
+	height: 55px;
+	line-height: 43px;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: -12px;
+}
+.block > div{
+	width: 282px;
+	height: 256px;
+	padding:1px;
+}
+.discounts{
+	background-image: url(../images/cola.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.discounts > p{
+	font-family: MyRiadCond, sans-serif;
+	font-weight: bold;
+	color: #005a9d;
+	font-size: 24px;
+	width: 75%;
+	padding-left: 5px;
+}
+.discounts span{
+	color: #f58a1e;
+	font-size: 32px;
+}
+
+.butt{
+	color: white;
+	font-weight: bold;
+	background:  url(../images/but1.png), linear-gradient(to bottom, #acc11e, #7f9310);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	display: block;
+	border-radius: 5px;
+	padding: 5px;
+}
+.discounts a{
+	width: 65px;
+	margin:50px 30px 10px;
 }
