@@ -11,7 +11,7 @@ body{
 }
 .fluid{
 	width: 100%;
-	
+
 }
 
 header{
@@ -58,7 +58,7 @@ header{
 .menu__item:hover{
 	background: linear-gradient(to bottom, #fce971, #d66c2c);
 	color: #ac3902;
-	
+
 }
 .slide{
 	background-image: url(../images/slide.png);
@@ -155,31 +155,31 @@ article{
 }
 div.catalogue >img{
 	position: absolute;
-    bottom: -14px;
-    left: -11px;
-    z-index: 100
+	bottom: -14px;
+	left: -11px;
+	z-index: 100
 }
 .catalogue a{
-    width: 100px;
-    height: 54px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 54px;
-    position: absolute;
-    right: 23px;
-    bottom: 18px;
-    z-index: 1;
+	width: 100px;
+	height: 54px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 54px;
+	position: absolute;
+	right: 23px;
+	bottom: 18px;
+	z-index: 1;
 }
 .catalogue > p{
 	font-family: MyRiadCond, sans-serif;
-    font-weight: bold;
-    color: #002f70;
-    font-size: 22px;
-    width: 75%;
-    padding-left: 5px;
-    text-align: center;
-    padding-left: 44px;
-    padding-top: 10px;
+	font-weight: bold;
+	color: #002f70;
+	font-size: 22px;
+	width: 75%;
+	padding-left: 5px;
+	text-align: center;
+	padding-left: 44px;
+	padding-top: 10px;
 }
 .catalogue > p.p{
 	text-align: right;
@@ -198,26 +198,26 @@ div.catalogue >img{
 }
 div.info{
 	background-image: url(../images/date.png);
-    background-repeat: no-repeat;
-    width: 83%;
-    height: 26%;
-    background-size: 33% 87%;
-    text-align: center;
-    padding-left: 50px;
-    padding-top: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
+	background-repeat: no-repeat;
+	width: 83%;
+	height: 26%;
+	background-size: 33% 87%;
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
 }
 
-  div.info:hover {
-    color: #514328; 
-    background-color: #978563; 
-   }
+div.info:hover {
+	color: #514328;
+	background-color: #978563;
+}
 footer{
 	background-color:rgb(102,86,56);
 	border-top: 1px solid #8e8169;
-	height: 300px;	
+	height: 300px;
 
 }
 div.ftr{
@@ -241,7 +241,7 @@ input{
 	width: 138px;
 	height: 22px;
 	margin-bottom: 10px;
-    margin-left: 70px;
+	margin-left: 70px;
 }
 label{
 	color: #b8a37a;
@@ -251,22 +251,22 @@ label{
 #Message{
 	width: 216px;
 	height: 85px;
-    margin-top: 44px;
+	margin-top: 44px;
 }
 .ftr a{
-    width: 70px;
-    height: 25px;
-    font-size: 12px;
-    text-align: center;
-    line-height: 27px;
-    position: absolute;
-    right: 541px;
+	width: 70px;
+	height: 25px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 27px;
+	position: absolute;
+	right: 541px;
 }
 
 .qc{
-    color: #b8a37a;
+	color: #b8a37a;
 	font-size: 12px;
-	
+
 }
 span{
 	color: white;
@@ -275,7 +275,7 @@ span{
 
 }
 .mi{
-    color: white;
+	color: white;
 	font-weight: bold;
 	background:  url(../images/but1.png), linear-gradient(to bottom, #acc11e, #7f9310);
 	background-size: 100% 100%;
@@ -283,13 +283,17 @@ span{
 	text-decoration: none;
 	display: block;
 	right: 232px;
-    bottom: -550px;
-    position: relative;
-	}
-	img.img{
-	position: absolute;
-    left: 585px;
-    bottom: -700px;
+	bottom: -550px;
+	position: relative;
 }
-	}
- 
+img.img{
+	position: absolute;
+	left: 585px;
+	bottom: -700px;
+}
+.indent{
+	padding-left: 57px;
+}
+footer .container:first-child{
+	height: 256px;
+}
