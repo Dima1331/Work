@@ -222,9 +222,18 @@ footer{
 }
 div.ftr{
 	float: left;
-	width: 310px;
+	// width: 310px;
 	height: 256px;
 }
+.width-70{
+	width: 70%;
+}
+.width-30{
+	width: 30%;
+}
+
+
+
 .ftr:last-child{
 	margin-right: 0px;
 }
@@ -297,10 +306,8 @@ img.img{
 footer .container:first-child{
 	height: 256px;
 }
-<<<<<<< HEAD
 div.q1{
 	float:left;
+	width: 50%;
 }
  
-=======
->>>>>>> origin/master
