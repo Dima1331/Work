@@ -241,6 +241,7 @@ p.contact{
 	color: white;
 	text-align: left;
 	font-size: 14px;
+	margin-bottom: 0;
 
 }
 input{
@@ -255,7 +256,7 @@ input{
 label{
 	color: #b8a37a;
 	font-size: 12px;
-	float: left;
+	
 }
 #Message{
 	width: 216px;
@@ -296,9 +297,10 @@ span{
 	position: relative;
 }
 img.img{
-	position: absolute;
-	left: 585px;
-	bottom: -700px;
+	position: relative;
+    left: 375px;
+    bottom: 95px;
+
 }
 .indent{
 	padding-left: 57px;
@@ -310,4 +312,13 @@ div.q1{
 	float:left;
 	width: 50%;
 }
- 
+input.search{
+	float: left;
+
+}
+.ser{
+    float: right;
+    margin-top: -43px;
+    margin-left: 455px
+
+}
